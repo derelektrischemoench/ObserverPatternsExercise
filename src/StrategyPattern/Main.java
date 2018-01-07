@@ -20,7 +20,7 @@ public class Main {
         }
     
         System.out.println("Array afterwards:");
-        BubbleSort.sort(nums);
+        InsertionSort.sort(nums);
         
         for(int i=0; i<nums.length; i++) {
             System.out.println(nums[i]);

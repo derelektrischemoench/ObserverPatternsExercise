@@ -9,7 +9,7 @@ public class BubbleSort extends Strategy {
         
         for (int i = 1; i <= toBeSorted.length; i++) {
             for (int j = 0; j < toBeSorted.length - i; j++) {
-                if (toBeSorted[j] < toBeSorted[j+1]) {
+                if (toBeSorted[j] > toBeSorted[j+1]) {
                     temp = toBeSorted[j];
                     toBeSorted[j] = toBeSorted[j+1];
                     toBeSorted[j+1] = temp;
